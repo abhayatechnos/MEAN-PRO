@@ -4,4 +4,6 @@ path = require('path');
 methods = require('methods');
 bodyParser = require('body-parser');
 cors = require('cors');
-app.listen(process.env.PORT || 4000, ()=> {});
+app.listen(8080, ()=> {
+  console.log('App running on port 8080')
+});
