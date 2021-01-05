@@ -1,0 +1,44 @@
+{
+  "name": "iisf-api",
+  "version": "1.0.0",
+  "description": "Atechnos backend api",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=production node app.js",
+    "dev": "nodemon app.js",
+    "lint": "./node_modules/eslint/bin/eslint.js . --max-warnings=0 --report-unused-disable-directives && echo '✔  Your .js files look good.'",
+    "start:prod": "NODE_ENV=production node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "apicache": "^1.5.3",
+    "aws-sdk": "^2.814.0",
+    "axios": "^0.21.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^17.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.28",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "newrelic": "^7.0.2",
+    "redis": "^3.0.2",
+    "request": "^2.88.2",
+    "winston": "^3.3.3",
+    "winston-mongodb": "^5.0.5"
+  },
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "eslint-plugin-node": "^11.1.0",
+    "loadtest": "*",
+    "nodemon": "^2.0.4"
+  },
+  "keywords": [
+    "aaa",
+    "aaa",
+    "api"
+  ],
+  "author": "Atechnos teamaaa",
+  "license": "aaa"
+}
