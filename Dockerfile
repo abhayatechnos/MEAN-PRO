@@ -19,7 +19,7 @@
 # RUN npm install pm2 -g
 
 # CMD ["pm2-runtime", "app.js"]
-FROM node:carbon
+FROM node:12-alpine
 
 
 # Create app directory
